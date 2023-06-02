@@ -131,20 +131,18 @@
     <div id="section-service-container">
     <div class="haed-text"><h1>Services</h1></div>
       <div class="box">  
-        <div class="container">
+        <div  class="container">
             <div class="icon" style="background-color: #4eb7ff;"><div class="icon-only"><i class="fa-solid fa-leaf"></i></div></div>
             <div class="content">
                 <h2>100% Fresh</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, quod reprehenderit eos, a numquam ex animi voluptatem fugiat nobis officiis earum veniam omnis fuga dicta fugit architecto. Inventore, illo voluptates?</p>
+                <p>We deliver fresh items only. All the vegetables, fruits, and groceries we sell are 100% fresh. Taste once, start loving us.</p>
             </div>
         </div>
         <div class="container">
             <div class="icon" style="background-color: #ff9500"><div class="icon-only"><i class="fa-solid fa-bus"></i></div></div>
             <div class="content">
                 <h2>Delivery</h2>
-                <p>Our delivery service ensures that your package reaches its destination safely and on time. We offer reliable and efficient delivery options to cater to your specific needs.
-
-</p>
+                <p>Our delivery service ensures that your package reaches its destination safely and on time. We offer reliable and efficient delivery options.  </p>
             </div>
         </div>
         <div class="container">
@@ -153,11 +151,27 @@
             <div class="content">
 
                 <h2>Payment</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet libero ducimus similique corporis, ullam obcaecati placeat quaerat praesentium, eligendi illum voluptate quia repellendus, aliquid amet consectetur suscipit!</p> 
+                <p>We accept all kinds of payments, such as Esewa, Khalti, Prabhu Pay, IME Pay, Bank Transfer, and cash on delivery.</p> 
             </div>
         </div>
    </div>
      <!-- service section ends here -->
+
+      <!-- footer section starts here -->
+      <section id="footer-box">
+      <div class="footer">
+        <h2>Contact Details</h2>
+        <h3>Address:</h3>
+        Metro Veggies
+        <p>Masbar-7, Pokhara, Nepal</p>
+        <p>Tel: +977 6183496</p>
+<hr>
+<div class="foot-last">
+  <b>© 2023 Team Motherland. All rights reserved.</b>
+</div>
+      </div>
+      </section>
+     <!-- footer section ends here -->
     {{-- jquery link gareko --}}
     <script src="{{ asset('site/jquery/jquery.js') }}"></script>
 

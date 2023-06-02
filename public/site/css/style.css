@@ -229,24 +229,19 @@ width: 450px;
         }
 }
 /* slider section ends here */
+
 /* service section starts here */
 #section-service-container .box{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* height: 100vh; */
+    flex-wrap: wrap;
     width:100%;
 }
 #section-service-container {
     background-color: var(--body-bg);
 }
-/* .box {
-    
-    display: inline-flex;
-    flex-wrap: wrap;
-    text-align: center;
-} */
 #section-service-container h1{
     text-align: center;
     color:var(--text);
@@ -255,13 +250,12 @@ width: 450px;
 }
 
 .box .container {
-    margin: 10px;
     width: 300px;
    height: 350px;
     border-radius: 10px;
     position: relative;
     overflow: hidden;
-    margin: 71px 71px;
+    margin: 71px 30px;
 
 }
 .box .container:hover{
@@ -296,21 +290,53 @@ width: 450px;
     width: 70px;
     border-radius: 50%;
     font-size: 50px;
-
 }
 
 .box .container .icon i {
     color: #fff;
     font-size: 45px;
 }
+#section-service-container .box .container .content{
+    margin-top:150px;
+}
 
 .content h2 {
     margin: 100px 0px 0px 0px;
     color:var(--text);
 }
-
 .content p {
     margin: 5px 20px 20px 20px;
     color:var(--text);
 }
 /* service section ends here */
+
+/* footer section starts here */
+#footer-box{
+    background-color:#373737;
+}
+#footer-box .footer{
+    /* margin-left: 50px; */
+    padding: 40px 200px;
+    color: #fff;
+
+}
+#footer-box .footer h2{
+    font-weight: bold;
+    font-size: 28x;
+}
+#footer-box .footer h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+#footer-box .footer .foot-last{
+    text-align: center;
+}
+@media only screen and (max-width:768px){
+    #footer-box .footer{
+        padding-left: 20px;
+    }
+    #footer-box .footer .foot-last{
+        text-align: left;
+    }
+}
+/* footer section ends here */
