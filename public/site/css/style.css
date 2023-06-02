@@ -177,14 +177,12 @@ a {
     justify-content: center;
     height: 75vh;
 }
-#slider .carousel-inner .carousel-caption {
-}
-#slider .carousel-inner .carousel-caption p{
-    color: #000;
-}
 #slider .carousel-inner img {
 height: 450px;
 width: 450px;
+}
+#slider .carousel-inner .content{
+    margin-right: 80px;
 }
 #slider .carousel-inner .content h2{
     font-size: 29px;
@@ -223,6 +221,96 @@ width: 450px;
       flex-direction: column;
       height: auto;
       margin-top: 50px;
+      margin-right: 0px;
+
           }
+          #slider .carousel-inner .content{
+            margin-right: 0px;
+        }
 }
 /* slider section ends here */
+/* service section starts here */
+#section-service-container .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* height: 100vh; */
+    width:100%;
+}
+#section-service-container {
+    background-color: var(--body-bg);
+}
+/* .box {
+    
+    display: inline-flex;
+    flex-wrap: wrap;
+    text-align: center;
+} */
+#section-service-container h1{
+    text-align: center;
+    color:var(--text);
+    margin-top: 10px;
+    
+}
+
+.box .container {
+    margin: 10px;
+    width: 300px;
+   height: 350px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    margin: 71px 71px;
+
+}
+.box .container:hover{
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 5px black;
+}
+.box .container .icon-only{
+    height: 65px;
+    width: 70px;
+    border-radius: 50%;
+    font-size: 50px;
+    background-color: #fff;
+}
+.box .container .icon {
+    position: absolute;
+    /* background-color: var(--i); */
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: #fff;
+}
+.box .container:hover .icon{
+    top: 10%;
+    left: 38%;
+    height: 65px;
+    width: 70px;
+    border-radius: 50%;
+    font-size: 50px;
+
+}
+
+.box .container .icon i {
+    color: #fff;
+    font-size: 45px;
+}
+
+.content h2 {
+    margin: 100px 0px 0px 0px;
+    color:var(--text);
+}
+
+.content p {
+    margin: 5px 20px 20px 20px;
+    color:var(--text);
+}
+/* service section ends here */

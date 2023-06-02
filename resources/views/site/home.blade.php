@@ -127,6 +127,37 @@
     </div>
 </section>
     <!-- slider section ends here -->
+    <!-- service section starts here -->
+    <div id="section-service-container">
+    <div class="haed-text"><h1>Services</h1></div>
+      <div class="box">  
+        <div class="container">
+            <div class="icon" style="background-color: #4eb7ff;"><div class="icon-only"><i class="fa-solid fa-leaf"></i></div></div>
+            <div class="content">
+                <h2>100% Fresh</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, quod reprehenderit eos, a numquam ex animi voluptatem fugiat nobis officiis earum veniam omnis fuga dicta fugit architecto. Inventore, illo voluptates?</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="icon" style="background-color: #ff9500"><div class="icon-only"><i class="fa-solid fa-bus"></i></div></div>
+            <div class="content">
+                <h2>Delivery</h2>
+                <p>Our delivery service ensures that your package reaches its destination safely and on time. We offer reliable and efficient delivery options to cater to your specific needs.
+
+</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="icon" style="background-color:  rgb(0, 109, 0);"><div class="icon-only"><i class="fa-brands fa-paypal"></i></div>
+            </div>
+            <div class="content">
+
+                <h2>Payment</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet libero ducimus similique corporis, ullam obcaecati placeat quaerat praesentium, eligendi illum voluptate quia repellendus, aliquid amet consectetur suscipit!</p> 
+            </div>
+        </div>
+   </div>
+     <!-- service section ends here -->
     {{-- jquery link gareko --}}
     <script src="{{ asset('site/jquery/jquery.js') }}"></script>
 
