@@ -157,7 +157,8 @@ a {
     color: var(--white);
     border-bottom: 5px solid var(--title-color);
 }
-#top-header-navbar .navbar .navbar-nav .nav-item .nav-link.active {
+#top-header-navbar .navbar .navbar-nav .nav-item.activecls
+ .nav-link {
     background-color: var(--main-color);
     color: var(--white);
     border-bottom: 5px solid var(--title-color);
@@ -192,9 +193,11 @@ width: 450px;
     font-size: 50px;
     font-weight: 600;
     color: green;
+    margin-bottom: 0px;
 }
 #slider .carousel-inner .content p{
     font-size: 16px;
+    margin-top: 18px;
 }
 #slider .carousel-inner .content .button .btn{
     font-size: 18px;
@@ -206,6 +209,9 @@ width: 450px;
     color: white;
     transition: 1s;
     border: none;
+    opacity: 0.05s;
+    position: absolute;
+
 }
 @media only screen and (max-width:991px) {
     #slider .carousel-inner img{
@@ -309,6 +315,172 @@ width: 450px;
     color:var(--text);
 }
 /* service section ends here */
+/* topsale css start here */
+.top-sale{
+    background-color: rgb(121, 214, 254);
+}
+.top-sale .top-sale-title h2{ 
+    color: var(--text);
+    font-weight: bold;
+    text-align: center;
+}
+.top-sale .top-sale-all-product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* width: 80%; */
+    margin: 0 10%;
+}
+.top-sale .product{
+    background-color: whitesmoke;
+    position: relative;
+    height: 400px;
+    width: 300px;
+    /* border: 2px solid black; */
+    align-items: center;
+    border-radius: 10px;
+    margin: 40px 15px;
+    box-shadow: 0 0 20px rgb(49, 129, 161);
+}
+.top-sale .product:hover{
+    margin-top: 15px;
+    transition: 0.5s;
+}
+
+.top-sale .product .image img{
+    width: 300px;
+    height: 206px;
+    border-radius: 10px 10px 0 0;
+}
+.top-sale .product .image .product-title{
+    background-color:  rgb(0, 109, 0);
+    position: absolute;
+    width: 50%;
+    margin: 0 26%;
+    text-align: center;
+    padding: 2px;
+    opacity: 0.9;
+    border-radius: 5px;
+    top: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    font-weight: bold;
+}
+.top-sale .product .image .product-title:hover{
+    opacity: 1;
+    transition: 1s;
+}
+.top-sale .product .content{
+    text-align: start;
+}
+.top-sale .product .content h2{
+    text-align: end;
+    width: 100%;
+    color: Green;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+.top-sale .product .content h1{
+    font-size: 20px;
+    font-weight: 500;
+    /* text-align: start; */
+}
+.top-sale .product .content h3{
+    font-size: 18px;
+    margin-left: 10px;
+}
+.top-sale .product .content h1 span{
+    font-size: 28px;
+    font-weight: 600;
+    margin: 10px;
+}
+.top-sale .product .content .button{
+    text-align: center;
+}
+.top-sale .product .content .button button{
+    background-color: var(--link-color);
+    padding: 3px 20px;
+    border-radius: 20px;
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: 500;
+    /* border: none; */
+}
+.top-sale .product .content .button button:hover{
+    background-color: green;
+    color: white;
+    transition: 1s;
+}
+
+.top-sale .product .content .product-top{
+    margin-top: 15px;
+    /* text-align: start; */
+    display: flex;
+    font-size: 20px;
+}
+.top-sale .product .content .product-top .rate{
+    margin-left: 18%;
+    color: var(--black);
+}
+.top-sale .product .content .product-top span .star{
+    color: var(--link-color);
+    margin: 5px;
+}
+/* topsale css ends here  */
+/* category starts here  */
+.category-title h2{
+    color: var(--text);
+    font-weight: bold;
+    text-align: center;
+    margin: 30px;
+}
+.category {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.category .category-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.category .category-item .image img{
+    border-radius: 50%;
+    height: 196px;
+    width: 220px;
+    margin: 20px;
+}
+.category .category-item .image-title {
+    text-align: center;
+}
+.category .category-item .image-title h2{
+    font-size: 23px;
+    background-color: var(--link-color);
+    height: 30px;
+    width: 145px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+.category .category-item .image-title h2 a{
+    color: var(--black);
+    font-weight: 500;
+}
+.category .category-item .image-title h2:hover{
+    background-color: green;
+    transition: 1s;
+}
+.category .category-item .image-title h2:hover a{
+    color: white;
+    transition: 1s;
+}
+/* category ends here */
 
 /* footer section starts here */
 #footer-box{

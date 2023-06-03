@@ -156,6 +156,164 @@
         </div>
    </div>
      <!-- service section ends here -->
+     <!-- top-sale product starts here -->
+     <section>
+        <div class="top-sale">
+          <div class="top-sale-title">
+             <h2>Our Top-Sale</h2>
+          </div>
+          <div class="top-sale-all-product">
+              <div class="product">
+              <div class="image">
+                <div class="product-title">
+                  Apple
+                </div>
+                  <img src="{{ asset ('site/image/app.webp')}}" alt="">
+              </div>
+              <div class="content">
+                  <div class="product-top">
+                     <h2>100% Fresh <span class="rate">4.9<span class="star"><i class="fa-solid fa-star"></i></span></span></h2>
+                  </div>
+                  <h1><span>Rs.240</span>|<del>Rs.300</del>|</h1>
+                  <h3>Category:Fruit</h3>
+
+                  <div class="button">
+                    <button>View Detail</button>
+                  </div>
+              </div>
+            </div>
+            <div class="product">
+              <div class="image">
+                <div class="product-title">
+                  Cucumber
+                </div>
+                  <img src="{{ asset ('site/image/cucumber.jpg')}}" alt="">
+              </div>
+              <div class="content">
+                  <div class="product-top">
+                     <h2>100% Fresh <span class="rate">4.8<span class="star"><i class="fa-solid fa-star"></i></span></span></h2>
+                  </div>
+                  <h1><span>Rs.80</span>|<del>Rs.100</del>|</h1>
+                  <h3>Category:vegetable</h3>
+
+                  <div class="button">
+                    <button>View Detail</button>
+                  </div>
+              </div>
+            </div>
+            <div class="product">
+              <div class="image">
+                <div class="product-title">
+                  Orange
+                </div>
+                  <img src="{{ asset ('site/image/orange.jpg')}}" alt="">
+              </div>
+              <div class="content">
+                  <div class="product-top">
+                     <h2>100% Fresh <span class="rate">4.9<span class="star"><i class="fa-solid fa-star"></i></span></span></h2>
+                  </div>
+                  <h1><span>Rs.120</span>|<del>RS.150</del>|</h1>
+                  <h3>Category:Fruit</h3>
+
+                  <div class="button">
+                    <button>View Detail</button>
+                  </div>
+              </div>
+            </div>
+            <div class="product">
+              <div class="image">
+                <div class="product-title">
+                  Potato
+                </div>
+                  <img src="{{ asset ('site/image/potato.avif')}}" alt="">
+              </div>
+              <div class="content">
+                  <div class="product-top">
+                     <h2>100% Fresh <span class="rate">4.8<span class="star"><i class="fa-solid fa-star"></i></span></span></h2>
+                  </div>
+                  <h1><span>Rs.50</span>|<del>Rs.80</del>|</h1>
+                  <h3>Category:Vegetable</h3>
+
+                  <div class="button">
+                    <button>View Detail</button>
+                  </div>
+              </div>
+            </div>
+            <div class="product">
+              <div class="image">
+                <div class="product-title">
+                  Onion
+                </div>
+                  <img src="{{ asset ('site/image/onion.jpg')}}" alt="">
+              </div>
+              <div class="content">
+                  <div class="product-top">
+                     <h2>100% Fresh <span class="rate">4.6<span class="star"><i class="fa-solid fa-star"></i></span></span></h2>
+                  </div>
+                  <h1><span>Rs.60</span>|<del>Rs.90</del>|</h1>
+                  <h3>Category:vegetable</h3>
+
+                  <div class="button">
+                    <button>View Detail</button>
+                  </div>
+              </div>
+            </div>
+            <div class="product">
+              <div class="image">
+                <div class="product-title">
+                  Guava
+                </div>
+                  <img src="{{ asset ('site/image/guava.jpg')}}" alt="">
+              </div>
+              <div class="content">
+                  <div class="product-top">
+                     <h2>100% Fresh <span class="rate">4.5<span class="star"><i class="fa-solid fa-star"></i></span></span></h2>
+                  </div>
+                  <h1><span>Rs.80</span>|<del>Rs.80</del>|</h1>
+                  <h3>Category:Fruit</h3>
+
+                  <div class="button">
+                    <button>View Detail</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+   </section>
+   <!-- top-sale product ends here -->
+    <!-- category starts here  -->
+    <section>
+    <div class="category-title">
+      <h2>Category</h2>
+    </div>
+     <div class="category">
+        <div class="category-item">
+          <div class="image">
+              <img src="{{ asset('site/image/vegetable.jpg')}}" alt="">
+          </div>
+          <div class="image-title">
+            <h2><a href="">Vegetable</a></h2>
+          </div>
+        </div>
+        <div class="category-item">
+            <div class="image">
+                <img src="{{ asset('site/image/fruit.jpg')}}" alt=""> 
+            </div>
+            <div class="image-title">
+              <h2><a href="">Fruit</a></h2>
+            </div>
+        </div>
+        <div class="category-item">
+            <div class="image">
+                <img src="{{ asset('site/image/other.jpg')}}" alt="">
+            </div>
+            <div class="image-title">
+              <h2><a href="">Other items</a></h2>
+            </div>
+        </div>
+     </div>
+   </section>
+   <!-- category ends here  -->
 
       <!-- footer section starts here -->
       <section id="footer-box">
