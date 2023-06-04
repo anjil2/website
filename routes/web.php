@@ -13,5 +13,5 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
-Route::get('/', [SiteController::class, 'getHome'])->name('getHome');
+Route::get('/', [SiteController::class,'home']);
+Route::get('/contact', [SiteController::class,'contact']);

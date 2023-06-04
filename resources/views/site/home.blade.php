@@ -71,7 +71,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ms-auto text-center">
       <li class="nav-item active ">
-        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="/">Home</a>
       </li>
       
       <li class="nav-item">
@@ -91,8 +91,8 @@
         </ul>
       </li>
           <li class="nav-item">
-        <a class="nav-link" href="#">Contact Us</a>
-      </li>
+        <a class="nav-link" href="/contact">Contact Us</a>
+   </li>
     </ul>
 </div>
 </div>
