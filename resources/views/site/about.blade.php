@@ -1,24 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>AKIRTAM | ELECTRONIC | ECOM</title>
-
-    {{-- fontawesome ko css link gareko --}}
+    <title>Document</title>
+</head>
+<body>
+{{-- fontawesome ko css link gareko --}}
     <link rel="stylesheet" href="{{ asset('site/fontawesome/all.css') }}">
 
     {{-- bootstrap ko css link gareko --}}
     <link rel="stylesheet" href="{{ asset('site/bootstrap/bootstrap.css') }}">
 
     {{-- style.css link gareko --}}
-    <link rel="stylesheet" href="{{ asset('site/css/contact.css') }}">
+    <link rel="stylesheet" href="{{ asset('site/css/about.css') }}">
 
-</head>
-
-<body>
     {{-- top-header section starts here --}}
     <section id="top-header">
         <div class="container">
@@ -69,21 +66,22 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ms-auto text-center">
-      <li class="nav-item ">
-        <a class="nav-link" href="/">Home</a>
-      </licl>
-      
       <li class="nav-item">
+        <a class="nav-link" href="/">Home</a>
+      </li>
+      
+      <li class="nav-item active">
         <a class="nav-link" href="/about">About Us</a>
       </li>
         <li class="nav-item">
         <a class="nav-link" href="#">Services</a>
       </li>
       <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="/"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="/category"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
           Category
-</a>
-          <li class="nav-item active">
+        </a>
+      </li>
+          <li class="nav-item">
         <a class="nav-link" href="/contact">Contact Us</a>
    </li>
     </ul>
@@ -91,48 +89,53 @@
 </div>
 </nav>
 </section>
+    {{-- navbar section ends here --}}
+<div class="about-top">
+    <h1>ABOUT <span>US</span></h1>
+    <div class="border-bottom">
 
-{{-- navbar section ends here --}}
+    </div>
+</div>
+<div class="medium">
+    <div class="medium-image col-6">
+        <img src="site/image/vegetable.jpg" alt="logo" >
+    </div>
+    <div class="medium-content col-5">
+        <h2>About Metro Veggies</h2>
+        <p>We are Metro Veggies. We deliver fresh vegetables, fruits, and spices. Browse a product, add to cart, fill your address, and proceed with your order. We will deliver it within 2 hours. We provide you the best quality and fresh veggies in best price. All the veggies are brouht here direct from the farm.We reduce the middleman cost, which makes the price higer</p>
+    </div>
+</div>
+    <div class="bottom-content">
+        <div class="box">
+            <h3>Aim</h3>
+            <p>
+                We aim to shorten the time between the farm and your table. We deliver the local food, which is better, fresher and tastier.Also, we aim to cut off the middleman cost, which makes the vegetable price higher. You are a direct customer, and we are a producer means you will get mediators free pricing.
+            </p>
+        </div>
+        <div class="box">
+            <h3>Vision</h3>
+            <p>
+                Our vision to change the way of the traditional way of shopping. You don't need to waste your time going to a local market, bargain with shopkeepers, and bring your bag. With us, you can select your products and buy online; we will deliver it to your doorstep within a few hours.
+            </p>
+        </div>
+    </div>
 
-<!-- contact section starts here -->
-
- <section id="contact-section">
-    <div class="form-box">
-      <h1>Contact Information</h1>
-      <h3>"Metro Veggies"</h3>
-      <div class="info-contact">
-         <p> <i class="fa-solid fa-location-dot icon"></i>Masbar-7, Pokhara, Nepal</p>
-        <p> <i class="fa-solid fa-phone icon"></i> 977+ 06183496 </p>
-        <p> <i class="fa-solid fa-envelope icon"></i>metroveegies123@gmail.com
-        </p>
-    
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3515.8180116890453!2d83.97286377536525!3d28.21284127589654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399595cdb84d7e3b%3A0xda60f09f785e25dc!2sZero%20Km%20pokhara!5e0!3m2!1sen!2snp!4v1685111628400!5m2!1sen!2snp"
-                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-            </div>
-     </div>
-    
-</section>
-<!-- contact section ends here -->
-
-  <!-- footer section starts here -->
-  <section id="footer-box">
+     <!-- footer section starts here -->
+     <section id="footer-box">
       <div class="footer">
         <h2>Contact Details</h2>
         <h3>Address:</h3>
         Metro Veggies
         <p>Masbar-7, Pokhara, Nepal</p>
         <p>Tel: +977 6183496</p>
-    <hr>
+<hr>
 <div class="foot-last">
   <b>© 2023 Team Motherland. All rights reserved.</b>
 </div>
       </div>
       </section>
      <!-- footer section ends here -->
-{{-- jquery link gareko --}}
+    {{-- jquery link gareko --}}
     <script src="{{ asset('site/jquery/jquery.js') }}"></script>
 
     {{-- proper js ko javascript link gareko --}}
@@ -147,6 +150,6 @@
 
     {{-- script.js link gareko --}}
     <script src="{{ asset('site/js/script.js') }}"></script>
-</body>
 
+</body>
 </html>

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>AKIRTAM | ELECTRONIC | ECOM</title>
+    <title>Metro Veggies</title>
 
     {{-- fontawesome ko css link gareko --}}
     <link rel="stylesheet" href="{{ asset('site/fontawesome/all.css') }}">
@@ -75,20 +75,15 @@
       </li>
       
       <li class="nav-item">
-        <a class="nav-link" href="#">About Us</a>
+        <a class="nav-link" href="/about">About Us</a>
       </li>
         <li class="nav-item">
         <a class="nav-link" href="#">Services</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <li class="nav-item ">
+        <a class="nav-link" href="/category">
           Category
         </a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Fruits</a></li>
-          <li><a class="dropdown-item" href="#">Vegetables</a></li>
-          <li><a class="dropdown-item" href="#">Fresh & Organic</a></li>
-        </ul>
       </li>
           <li class="nav-item">
         <a class="nav-link" href="/contact">Contact Us</a>
@@ -121,6 +116,11 @@
       <div class="image">
       <img src="{{ asset('site/image/slider1.png')}}"  alt="...">
       </div>
+        <div class="organic">
+        Fresh <br>
+        & <br>
+        ORGANIC
+      </div>
     </div>
   </div>
 </div>
@@ -149,7 +149,6 @@
             <div class="icon" style="background-color:  rgb(0, 109, 0);"><div class="icon-only"><i class="fa-brands fa-paypal"></i></div>
             </div>
             <div class="content">
-
                 <h2>Payment</h2>
                 <p>We accept all kinds of payments, such as Esewa, Khalti, Prabhu Pay, IME Pay, Bank Transfer, and cash on delivery.</p> 
             </div>
@@ -305,6 +304,14 @@
         </div>
         <div class="category-item">
             <div class="image">
+                <img src="{{ asset('site/image/spices.jpg')}}" alt=""> 
+            </div>
+            <div class="image-title">
+              <h2><a href="">Spices</a></h2>
+            </div>
+        </div>
+        <div class="category-item">
+            <div class="image">
                 <img src="{{ asset('site/image/other.jpg')}}" alt="">
             </div>
             <div class="image-title">
@@ -312,7 +319,9 @@
             </div>
         </div>
      </div>
+     
    </section>
+  
    <!-- category ends here  -->
 
       <!-- footer section starts here -->
