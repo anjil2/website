@@ -106,8 +106,15 @@ a {
 
 /* navbar section css starts here */
 
+#top-header-navbar{
+ position: sticky;
+    z-index:100;
+    top: 0%;
+    overflow: hidden;
+}
 #top-header-navbar .navbar {
     padding: 0;
+   
 }
 
 #top-header-navbar .navbar .navbar-brand {
@@ -163,11 +170,7 @@ a {
     color: var(--white);
     border-bottom: 5px solid var(--title-color);
 }
-/* #top-header-navbar .navbar .navbar-nav .nav-item.active .nav-link{
-    background-color: var(--main-color);
-    color: var(--white);
-    border-bottom: 5px solid var(--title-color);
-} */
+
 /* navbar section css ends here */
 
 /* slider section starts here */
@@ -186,34 +189,34 @@ a {
 height: 450px;
 width: 450px;
 }
-#slider .carousel-inner .content{
-    margin-right: 80px;
-}
 #slider .carousel-inner .content h2{
-    font-size: 29px;
-    font-weight: 500;
+    font-weight:bold;
+    font-size: 40px;
 }
 #slider .carousel-inner .content h1{
-    font-size: 50px;
-    font-weight: 600;
-    color: green;
     margin-bottom: 0px;
+    color: green;
+    font-size: 55px;
+    font-weight: bold;
+}
+#slider .carousel-inner .content{
+    margin-right: 50px;
 }
 #slider .carousel-inner .content p{
-    font-size: 16px;
+    font-size: 22px;
     margin-top: 18px;
 }
 #slider .carousel-inner .content .button .btn{
     font-size: 18px;
     padding: 5px 18px;
     border-radius: 20px;
+    margin: 30px 10% 0 10%;
 }
 #slider .carousel-inner .content .button .btn:hover{
     background-color: var(--main-color);
     color: white;
     transition: 1s;
     border: none;
-
 }
 @media only screen and (max-width:991px) {
     #slider .carousel-inner img{
@@ -259,7 +262,7 @@ width: 450px;
 #slider .carousel-inner .carousel-item .organic{
     font-size: 100px;
     color: green;
-    opacity: 0.08 ;
+    opacity: 0.08;
     position: absolute;
     margin-right: -35px;
     line-height: 140px;
@@ -313,19 +316,24 @@ width: 450px;
     font-size: 45px;
 }
 #section-service-container .box .container .content{
-    margin-top:150px;
+    margin-top:100px;
 }
 
 .content h2 {
-    margin: 100px 0px 0px 0px;
-    color:var(--text);
+    margin-bottom: 20px;
+    font-weight: bold;
 }
 .content p {
     margin: 5px 20px 20px 20px;
-    color:var(--text);
+    font-size: 21px;
 }
 /* service section ends here */
 /* topsale css start here */
+.top-sale .top-sale-title h2{ 
+    color: var(--text);
+    font-weight: bold;
+    text-align: center;
+}
 .top-sale-all-product{
     display: flex;
     justify-content: center;

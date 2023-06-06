@@ -105,7 +105,10 @@ a {
 /* top-header section css ends here */
 
 /* navbar section css starts here */
-
+#top-header-navbar{
+    position: sticky;
+       z-index:100;php 
+}
 #top-header-navbar .navbar {
     padding: 0;
 }

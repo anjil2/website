@@ -76,8 +76,8 @@
         <li class="nav-item">
         <a class="nav-link" href="#">Services</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="/category"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <li class="nav-item">
+        <a class="nav-link " href="/category">
           Category
         </a>
       </li>
@@ -102,7 +102,7 @@
     </div>
     <div class="medium-content col-5">
         <h2>About Metro Veggies</h2>
-        <p>We are Metro Veggies. We deliver fresh vegetables, fruits, and spices. Browse a product, add to cart, fill your address, and proceed with your order. We will deliver it within 2 hours. We provide you the best quality and fresh veggies in best price. All the veggies are brouht here direct from the farm.We reduce the middleman cost, which makes the price higer</p>
+        <p>We are Metro Veggies. We deliver fresh vegetables, fruits, and spices. Browse a product, add to cart, fill your address, and proceed with your order. We will deliver it within 2 hours. We provide you the best quality and fresh veggies in best price. All the veggies are brouht here direct from the farm.We reduce the middleman cost, which makes the price higher</p>
     </div>
 </div>
     <div class="bottom-content">

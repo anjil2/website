@@ -79,10 +79,8 @@
         <li class="nav-item">
         <a class="nav-link" href="#">Services</a>
       </li>
-      <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="/"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Category
-</a>
+      <li class="nav-item">
+      <a class="nav-link" href="/category"> Category</a>
           <li class="nav-item active">
         <a class="nav-link" href="/contact">Contact Us</a>
    </li>

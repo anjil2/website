@@ -71,14 +71,13 @@
       </li>
       
       <li class="nav-item">
-        <a class="nav-link" href="#">About Us</a>
+        <a class="nav-link" href="/about">About Us</a>
       </li>
         <li class="nav-item">
-        <a class="nav-link" href="#">Services</a>
+        <a class="nav-link" href="/services">Services</a>
       </li>
-      <li class="nav-item dropdown active">
-        <a class="nav-link dropdown-toggle" href="/category"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Category
+      <li class="nav-item active">
+        <a class="nav-link" href="/category">Category
         </a>
       </li>
           <li class="nav-item">

@@ -78,7 +78,7 @@
         <a class="nav-link" href="/about">About Us</a>
       </li>
         <li class="nav-item">
-        <a class="nav-link" href="#">Services</a>
+        <a class="nav-link" href="#section-service-container">Services</a>
       </li>
       <li class="nav-item ">
         <a class="nav-link" href="/category">
@@ -142,7 +142,7 @@
             <div class="icon" style="background-color: #ff9500"><div class="icon-only"><i class="fa-solid fa-bus"></i></div></div>
             <div class="content">
                 <h2>Delivery</h2>
-                <p>Our delivery service ensures that your package reaches its destination safely and on time. We offer reliable and efficient delivery options.  </p>
+                <p>Our delivery service ensures that your veegies reaches its destination on time. We offer efficient delivery options.  </p>
             </div>
         </div>
         <div class="container">
