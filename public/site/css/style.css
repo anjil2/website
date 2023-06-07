@@ -187,7 +187,7 @@ a {
 }
 #slider .carousel-inner img {
 height: 450px;
-width: 450px;
+width: 500px;
 }
 #slider .carousel-inner .content h2{
     font-weight:bold;
@@ -256,7 +256,7 @@ width: 450px;
 #section-service-container h1{
     text-align: center;
     color:var(--text);
-    margin-top: 10px;
+    margin-top: 1p0x;
     
 }
 #slider .carousel-inner .carousel-item .organic{
@@ -265,7 +265,7 @@ width: 450px;
     opacity: 0.08;
     position: absolute;
     margin-right: -35px;
-    line-height: 140px;
+    line-height: 150px;
 }
 
 .box .container {
@@ -321,7 +321,7 @@ width: 450px;
 
 .content h2 {
     margin-bottom: 20px;
-    font-weight: bold;
+
 }
 .content p {
     margin: 5px 20px 20px 20px;
@@ -416,10 +416,10 @@ width: 450px;
     background-color: var(--link-color);
     padding: 3px 20px;
     border-radius: 20px;
-    margin-top: 12px;
+    margin-top: 23px;
     font-size: 20px;
     font-weight: 500;
-    /* border: none; */
+    border: none;
 }
 .product .content .button button:hover{
     background-color: green;
@@ -495,8 +495,9 @@ width: 450px;
 
 .category .category-item .image img{
     border-radius: 50%;
-    height: 196px;
+    height: auto;
     width: 220px;
+    aspect-ratio: 1;
     margin: 20px;
 }
 .category .category-item .image-title {

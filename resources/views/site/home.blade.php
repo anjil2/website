@@ -7,20 +7,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Metro Veggies</title>
 
-    {{-- fontawesome ko css link gareko --}}
+    <!-- {{-- fontawesome ko css link gareko --}} -->
     <link rel="stylesheet" href="{{ asset('site/fontawesome/all.css') }}">
 
-    {{-- bootstrap ko css link gareko --}}
+    <!-- {{-- bootstrap ko css link gareko --}} -->
     <link rel="stylesheet" href="{{ asset('site/bootstrap/bootstrap.css') }}">
 
-    {{-- style.css link gareko --}}
+    <!-- {{-- style.css link gareko --}} -->
     <link rel="stylesheet" href="{{ asset('site/css/style.css') }}">
 
 </head>
 
 <body>
 
-    {{-- top-header section starts here --}}
+    <!-- {{-- top-header section starts here --}} -->
     <section id="top-header">
         <div class="container">
             <div class="row">
@@ -52,9 +52,9 @@
             </div>
         </div>
     </section>
-    {{-- top-header section ends here --}}
+    <!-- {{-- top-header section ends here --}}
 
-    {{-- navbar section starts here --}}
+    {{-- navbar section starts here --}} -->
     <section id="top-header-navbar">
        
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -114,7 +114,7 @@
         </div>
       </div>
       <div class="image">
-      <img src="{{ asset('site/image/slider1.png')}}"  alt="...">
+      <img src="{{ asset('site/image/bot.png')}}"  alt="...">
       </div>
         <div class="organic">
         Fresh <br>
@@ -339,20 +339,20 @@
       </div>
       </section>
      <!-- footer section ends here -->
-    {{-- jquery link gareko --}}
+    <!-- {{-- jquery link gareko --}} -->
     <script src="{{ asset('site/jquery/jquery.js') }}"></script>
 
-    {{-- proper js ko javascript link gareko --}}
+    <!-- {{-- proper js ko javascript link gareko --}} -->
     <script src="{{ asset('site/bootstrap/proper.js') }}"></script>
 
-    {{-- bootstrap ko javascript lai link gareko --}}
+    <!-- {{-- bootstrap ko javascript lai link gareko --}} -->
     <script src="{{ asset('site/bootstrap/bootstrap.js') }}"></script>
 
 
-    {{-- fontawesome ko js link gareko --}}
+    <!-- {{-- fontawesome ko js link gareko --}} -->
     <script src="{{ asset('site/fontawesome/all.js') }}"></script>
 
-    {{-- script.js link gareko --}}
+    <!-- {{-- script.js link gareko --}} -->
     <script src="{{ asset('site/js/script.js') }}"></script>
 </body>
 
